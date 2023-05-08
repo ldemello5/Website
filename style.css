@@ -368,8 +368,99 @@ body{
 
   }
 
+  
+
+/*Skills*/
+
+.grid-container-skills {
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    grid-gap: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+}
+.grid-item > div {
+      background: #edf2f8;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+}
+.grid-item > div::before {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+        grid-area: 1 / 1 / 2 / 2;
+        
+}
+.grid-item > div > img {
+        width: 100%;
+        grid-area: 1 / 1 / 2 / 2;
+}
+.skills-text{
+    text-align: center;
+    color: gray;
+    margin-top: 7%;
+}
+
 /*Card*/
 
+.tags-row{
+    display: flex;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    place-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.tags-item{
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 0%;
+    font-size: x-small;
+    color: white;
+}
+.no-bottom{
+    margin-bottom: auto;
+}
+.personal{
+    background-color: blueviolet;
+}
+.work{
+    background-color:darkmagenta;
+}
+.school{
+    background-color: deeppink;
+}
+.webdev{
+    background-color: purple;
+}
+.oop{
+    background-color: blue;
+}
+.arduino{
+    background-color: cornflowerblue;
+}
+.unity{
+    background-color: green;
+}
+.cad{
+    background-color: red;
+}
+.group{
+    background-color: gray;
+}
+.design{
+    background-color: lightsalmon;
+}
+
+.card{
+    width: 300px;
+}
 .row{
     margin: 0 auto;
     margin-bottom: 3%;
@@ -379,13 +470,16 @@ body{
 .col-sm-3{
     margin-left: 20px;
     margin-right: 20px;
+    align-items: center;
 }
 .card-title{
     text-align: center;
     margin: 15px;
+    color: #05445E;
 }
 .card-text{
     text-align: center;
+    color: gray;
 }
 .btn{
     margin-left: 25%;
@@ -398,6 +492,11 @@ body{
 }
 
 /*Other*/
+a{
+    text-decoration: none;
+    color:#189AB4;
+}
+
 .main{
     display: flex;
     width: 100%;
