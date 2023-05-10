@@ -96,6 +96,55 @@ header ul li a{
     width: 100%;
     height: 10vh;
 }
+/*
+header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    background-color: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4%;
+}
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+.lucaslogo {
+    cursor: pointer;
+}
+.nav_links {
+    list-style: none;
+    width: 700px;
+}
+.nav_links li {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.nav_links li a {
+    width: 100px;
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: #0088a9;
+}
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}*/
 /*End of Navigation Bar Code*/
 
 /*Start of Changing Background Colour Code*/
@@ -115,7 +164,7 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-}
+}*/
 @keyframes bgcolor{
     0%
     {
@@ -138,7 +187,7 @@ body{
         background: #f3fcfc;
     }
 
-}*/
+}
 /*End of Changing Background Colour Code*/
 
 /*Random stuff*/
@@ -149,16 +198,11 @@ body{
     overflow: hidden;
     border: 3px solid black;
 }
-.intro-description{
-    font-size: 22px;
-    text-align: justify;
-    width: 575px;
-}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
   }
   
@@ -168,8 +212,8 @@ body{
     position: absolute;
     width: 2px;
     background-color: gray;
-    top: 200px;
-    bottom: 130px;
+    top: 22%;
+    bottom: 12%;
     left: 40%;
     margin-left: -4px;
   }
@@ -206,6 +250,34 @@ body{
     left: 15%;
   }
   
+  /* Add arrows to the left container (pointing right) 
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }*/
+  
+  /* Add arrows to the right container (pointing left) */
+  /*.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }*/
+  
   /* Fix the circle for containers on the right side */
   .right::after {
     left: -16px;
@@ -225,26 +297,22 @@ body{
     margin-top: 2px;
     margin-bottom: 5px;
     color: #05445E;
-    font-family: Montserrat;
   }
   .job-title{
     margin-bottom: 5px;
     color: #05445E;
     font-size: 20px;
     font-weight: bold;
-    font-family: Montserrat;
   }
   .job-text{
     line-height: 1.7;
-    font-family: Arial, Helvetica, sans-serif;
   }
   .date{
     justify-content: right;
     align-items: right;
     position: relative;
     color: gray;
-    /*font-family: "DM Sans", sans-serif;*/
-    font-family: Montserrat;
+    font-family: "DM Sans", sans-serif;
     font-size: 15px;
   }
   .datec{
@@ -258,7 +326,7 @@ body{
   .title{
     margin: 0;
     padding: 30px;
-    font-family: Montserrat;
+    font-family: arial;
     font-size: 2em;
     color: #05445E;
     position: relative;
@@ -335,20 +403,6 @@ body{
     margin-top: 7%;
 }
 
-/*Contact items*/
-.contact-info{
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-}
-.contact-item{
-    margin: 0 auto;
-}
-.contact-item-text{
-    float: right;
-    
-}
-
 /*Card*/
 
 .tags-row{
@@ -377,10 +431,10 @@ body{
     background-color: blueviolet;
 }
 .work{
-    background-color:blueviolet;
+    background-color:darkmagenta;
 }
 .school{
-    background-color: blueviolet;
+    background-color: deeppink;
 }
 .webdev{
     background-color: purple;
@@ -438,9 +492,6 @@ body{
 }
 
 /*Other*/
-html{
-    scroll-behavior: smooth;
-}
 a{
     text-decoration: none;
     color:#189AB4;
