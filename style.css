@@ -321,7 +321,7 @@ body{
 .grid-container-skills {
     display: grid;
     grid-template-columns: repeat(7, 100px);
-    grid-gap: 2rem;
+    grid-gap: 3rem;
     margin-left: 10%;
     margin-right: 10%;
     justify-content: center;
