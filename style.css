@@ -201,13 +201,9 @@ body{
     margin-left: 7%;
 }
 .intro-pic{
-    width: 35%;
-    margin-top: 2%;
+    width: 40%;
     position: absolute;
     overflow: hidden;
-    border: 3px solid black;
-    align-items: center;
-    justify-content: center;
 }
 .intro-pic-sub{
     position: absolute;
@@ -593,10 +589,11 @@ a{
 }
 .intro-txt-container{
     margin-left: 50%;
-    margin-top: 5%;
+    margin-top: 0%;
     margin-right: 5%;
     margin-bottom: 10%;
     position: relative;
+    padding-top: 3%;
 }
 
 .flexbox{
