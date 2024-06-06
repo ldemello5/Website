@@ -148,7 +148,7 @@ header ul li a{
 /*end of beginning 3 code*/
 
 .tree-text{
-    padding-bottom: 3%;
+    padding-bottom: 0%;
 }
 
 /*start of testimonial code*/
@@ -159,7 +159,7 @@ header ul li a{
     box-sizing: border-box;
 }
 .testimonialcontainer{
-    height: 75vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -175,7 +175,7 @@ header ul li a{
     overflow: hidden;
 }
 .testimonialquote{
-    padding-top: 10px !important;
+    padding-top: 125px !important;
 }
 .testimonial .testimonialimage{
     height: 170px;
