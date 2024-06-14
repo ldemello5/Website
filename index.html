@@ -73,7 +73,7 @@
         </div>
 
         <div class="fulltestimonial">
-          <section class="testimonialcontainer">
+          <div class="testimonialcontainer">
             <div class="title">
               <h1 class="title">Testimonials</h1>
             </div>
@@ -161,9 +161,9 @@
               </div>
               <div class="testimonialnavbtn swiper-button-next" id="testimonialnavbtnsizing"></div>
               <div class="testimonialnavbtn swiper-button-prev" id="testimonialnavbtnsizing"></div>
-              <div class="swiper-pagination"></div>
+              <div class="swiper-pagination" style="position: relative; margin-top: 25px;"></div>
             </div>
-          </section>
+          </div>
         </div>
         
         
@@ -175,6 +175,22 @@
 
             <div class="datec left">
                 <div class="date" style="text-align:right">
+                  <h2 class="date">May 2024 - August 2024</h2>
+                </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2 class="job-title">Biological Machine Learning Research Intern @ UC Davis</h2>
+                <p class="job-location">Davis, California | Co-op full-time | <a href="https://www.bradylab.org/" target="_blank">https://www.bradylab.org/</a></p>
+                <p class="job-text" style="color: gray">I designed a machine learning object recognition pipeline using Python that anaylzes key features
+                  of sorghum root cross-sections that may help distrupt Striga hermonithica from forming xylem bridges, for example, percentage of aerenchyma, 
+                  concentration of fluoral yellow (indicative of suberin), and concentration of TRITC (indicative of lignin).
+                </p>
+              </div>
+            </div>
+
+            <div class="datec left">
+                <div class="date" style="text-align:right">
                   <h2 class="date">September 2023 - December 2023</h2>
                 </div>
             </div>
@@ -182,7 +198,7 @@
               <div class="content">
                 <h2 class="job-title">Mechanical Design Associate @ OES</h2>
                 <p class="job-location">London, Ontario | Co-op full-time | <a href="https://www.oes-inc.com/" target="_blank">https://www.oes-inc.com</a></p>
-                <p class="job-text" style="color: gray">I created mechanical drawings, layouts, BoMs, and 3D models of scoreboards and other
+                <p class="job-text" style="color: gray">I created mechanical drawings, layouts, BoMs, and 3D models of custom scoreboards and other
                    products. Additionally, I designed solutions to issues with existing processes and designed + ran experiments to determine 
                    optimized scoreboard installation method.</p>
               </div>
@@ -239,11 +255,11 @@
             </div>
             <div class="container right">
               <div class="content">
-                <h2 class="job-title">Math Tutor @ St. Andrew's College / STEM Tutor self-employed</h2>
-                <p class="job-location">Remote | Part-time | <a href="https://www.sac.on.ca/" target="_blank">https://www.sac.on.ca</a></p>
-                <p class="job-text" style="color: gray; margin-bottom: 5%">Since starting 
-                  at St. Andrew's College in September 2023, I tutor high school students in all high school maths, 
-                  including functions, calculus, vectors, and statistics. Previously, I
+                <h2 class="job-title">Math Den Supervisor @ St. Andrew's College / STEM Tutor self-employed</h2>
+                <p class="job-location">Hybrid | Part-time | <a href="https://www.sac.on.ca/" target="_blank">https://www.sac.on.ca</a></p>
+                <p class="job-text" style="color: gray; margin-bottom: 5%">While working 
+                  at St. Andrew's College from September 2023 - May 2024, I tutored students in all high school maths, 
+                  including functions, calculus, vectors, and statistics, and data management. Previously, I
                   tutored three highschool students in the subjects of Calculus & Vectors, Grade 11 Chemistry, and Grade 11 Physics.</p>
               </div>
             </div>
@@ -256,8 +272,8 @@
               <div class="content">
                 <h2 class="job-title">Performer @ Fairytale Parties</h2>
                 <p class="job-location">Waterloo, Ontario | Part-time | <a href="https://www.fairytaleparties.ca/" target="_blank">https://www.fairytaleparties.ca</a></p>
-                <p class="job-text" style="color: gray; margin-bottom: 10%">Dressed as characters including Spiderman, Superman and Mario, I
-                attended birthday parties or community events to lead activities with the kids, and teach them to be superheroes!</p>
+                <p class="job-text" style="color: gray; margin-bottom: 10%">Dressed as characters including Spiderman, Superman, Robin and Mario, I
+                attended birthday parties or community events to lead activities with the kids, and teach them how to be superheroes!</p>
               </div>
             </div>
             
@@ -329,11 +345,131 @@
         </div>
     <div style="background-color: #f5f5f5; padding-bottom: 7%;" id="projects"> 
           <div class="title">
-            <h1 class="title">Projects & Portfolio</h1>
+            <h1 class="title">Sample Projects</h1>
           </div>
         
-        <h2 class="job-title" style="text-align: center; margin-bottom: 3%; font-size: 30px; text-decoration: underline;">Software/Hardware</h2>
+        <!-- <h2 class="job-title" style="text-align: center; margin-bottom: 3%; font-size: 30px; text-decoration: underline;">Software/Hardware</h2> -->
         
+        <div class="unique-card-wrapper">
+          <div class="unique-card" data-images="WebImages/Prosthetic1.jpg,WebImages/ProstheticCircuit.png,WebImages/ProstheticSolidworksFinal.png,WebImages/ProstheticTopArmFEA.png">
+              <button class="unique-arrow unique-left-arrow">&#9664;</button>
+              <div class="unique-image-container">
+                  <img class="unique-card-image imgLink" src="WebImages/Prosthetic1.jpg" alt="Image">
+                  <div class="overlay"></div>
+              </div>
+              <button class="unique-arrow unique-right-arrow">&#9654;</button>
+              <div class="unique-text-container">
+                  <h2>EMG Prosthetic Device</h2>
+                  <p>This project allowed me to strengthen my skills in design/CAD, 
+                    critical thinking in the context of circuitry, and Arduino software/hardware development.
+                    <br><br>
+                    My 2B term project was a prosthetic device that used forearm EMG signals to actuate movement and twist a doorknob. 
+                    The EMG signal was collected from electrodes on the user's forearm, and was then put through a custom circuit 
+                    consisting of an instrumentation amp, bandpass filter, buffer, and integrator. It was then processed by an Arduino, 
+                    which actuated servo motion to clamp the doorknob. 
+                    <br><br> The design was created in Solidworks and variables including 
+                    vertical printing, adjustability, printing time/costs, material, infill, tolerancing and anthropomorphic data were all 
+                    considered. An FEA was conducted to ensure the print would be structurally stable and functional.</p>
+              </div>
+          </div>
+      </div>
+      
+      <div class="unique-card-wrapper">
+          <div class="unique-card" data-images="WebImages/Jet.jpg, WebImages/JetTop.jpg, WebImages/JetBottom.jpg, WebImages/JetFrontBack.jpg">
+              <button class="unique-arrow unique-left-arrow">&#9664;</button>
+              <div class="unique-image-container">
+                  <img class="unique-card-image imgLink" src="WebImages/Jet.jpg" alt="Image">
+                  <div class="overlay"></div>
+              </div>
+              <button class="unique-arrow unique-right-arrow">&#9654;</button>
+              <div class="unique-text-container">
+                  <h2>Dassault Rafale</h2>
+                  <p>This project allowed me to strengthen my skills in design/CAD, and Solidworks.
+                    <br><br>
+                    I’ve always had a fascination with military history and technological advancements, particularly with aircraft. 
+                    The evolution of fighters like the SBD Dauntless, Zeroes, or Stuka dive bombers from WW2 all the way up to our current fifth-gen fighters 
+                    like the F35 Lightning II is super interesting. With a desire to model a fighter jet, I wanted to select a lesser-known aircraft that is 
+                    still very important in today’s geopolitical atmosphere. The Dassault Rafale was manufactured by Dassault Aviation in France, and has seen 
+                    action in Afghanistan, Mali, Libya, Iraq and Syria. Being employed by countries like Egypt, Qatar, and India, these fighters play crucial roles 
+                    in the balance of power of various nations in the Middle East and south Asia. 
+                  <!-- <br><br>
+                  I designed this jet in Solidworks using a variety of features including planes, boundaries, mirrors, extrudes, cuts, fillets, 
+                  lofts, sweeps, split lines, revolves, and circular patterns. -->
+                  </p>
+              </div>
+          </div>
+      </div>
+
+      <div class="unique-card-wrapper">
+        <div class="unique-card" data-images="WebImages/EndodermisPred.jpg, WebImages/SuberinConcentrationPipeline.jpg">
+            <button class="unique-arrow unique-left-arrow">&#9664;</button>
+            <div class="unique-image-container">
+                <img class="unique-card-image imgLink" src="WebImages/EndodermisPred.jpg" alt="Image">
+                <div class="overlay"></div>
+            </div>
+            <button class="unique-arrow unique-right-arrow">&#9654;</button>
+            <div class="unique-text-container">
+                <h2>ML Automated Image Analysis Pipeline</h2>
+                <p>This project allowed me to strengthen my skills in Python, 
+                  machine learning model implementation, and bio-marker/microscopy image analysis.
+                  <br><br>
+                  While working in the Brady Lab at UC Davis, I was tasked with creating this pipeline. The goal of the research is 
+                  to determine factors in sorghum roots that prevent Striga hermonithica from forming a xylem bridge post-attachment, 
+                  for example, amount of aerenchyma, suberin concentration, and lignin concentration. Gathering this information by hand from root 
+                  cross-sections I imaged with a Cytation C10 Confocal Microscope is very time-consuming, which is where the pipeline comes in. 
+                  I annotated hundreds of cross-sections to train the Yolov8 model to 
+                  to isolate the endodermis, and then I used HSV and grayscale to determine the brightness of fluoral yellow in the endodermis, which 
+                  indicates suberin concentration.
+                </p>
+            </div>
+        </div>
+      </div>
+
+      <div class="unique-card-wrapper">
+        <div class="unique-card" data-images="WebImages/Incubator1.jpg, WebImages/IncubatorCircuit.jpg, WebImages/IncubatorDiagram.jpg, WebImages/IncubatorInstructions1.jpg">
+            <button class="unique-arrow unique-left-arrow">&#9664;</button>
+            <div class="unique-image-container">
+                <img class="unique-card-image imgLink" src="WebImages/Incubator1.jpg" alt="Image">
+                <div class="overlay"></div>
+            </div>
+            <button class="unique-arrow unique-right-arrow">&#9654;</button>
+            <div class="unique-text-container">
+                <h2>Incubator - Mealy FSM</h2>
+                <p>This project allowed me to strengthen my skills in design/CAD, 
+                  critical thinking in the context of circuitry, and Arduino software/hardware development.
+                  <br><br>
+                  While the assignment was only for the Mealy FSM portion, I wanted to up it a notch. This "incubator" and its circuitry was 
+                  soldered, assembled, and painted by hand, and provided a nice creative outlet during my term. The Arduino operated on a 227-line program I wrote.
+                </p>
+            </div>
+        </div>
+      </div>
+
+      <div class="unique-card-wrapper">
+        <div class="unique-card" data-images="WebImages/SpaceInvadersPic.png">
+            <button class="unique-arrow unique-left-arrow">&#9664;</button>
+            <div class="unique-image-container">
+                <img class="unique-card-image imgLink" src="WebImages/Incubator1.jpg" alt="Image">
+                <div class="overlay"></div>
+            </div>
+            <button class="unique-arrow unique-right-arrow">&#9654;</button>
+            <div class="unique-text-container">
+                <h2>Space Invaders</h2>
+                <p>This project allowed me to strengthen my skills in game development, 
+                  object-oriented programming (C#), and problem-solving within the Unity environment.
+                  <br><br>
+                  I developed a modern version of the classic Space Invaders game using Unity and C#. This project involved designing 
+                  and implementing gameplay mechanics, including enemy behavior, player controls, collision detection, and scoring systems. 
+                  I wrote all game logic using C# scripts. I also integrated sound effects 
+                  and animations to enhance the user experience.
+                </p>
+            </div>
+        </div>
+      </div>
+      
+        
+        <script src="unique-script.js"></script>
+
         <div class="row">
             <div class="col-sm-3">
               <div class="card">
