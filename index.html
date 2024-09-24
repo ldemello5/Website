@@ -1,846 +1,873 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-      <link rel="shortcut icon" type="image/x-icon" href="WebImages/LogoImage3.ico">
-      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="WebImages/LogoImage3.ico">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-      <!-- CSS -->
-      <link rel="stylesheet" href="style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 
-      <!-- SWIPER CSS -->
-      <link rel="stylesheet" href="swiper-bundle.min.css">
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
 
-      
+    <!-- TAB NAME -->
+    <title>
+      Lucas' Website
+    </title>
+  </head>
 
-      <!-- TAB NAME -->
-      <title>
-        Lucas' Website
-      </title>
-    </head>
+  <body>
 
-    <body>
-        <div class="intro">
-            <h1 class="logo-header">
-                <span class="logo">Website under maintenance! Last updated: Sept 2023 - visuals and content missing/incomplete</span>
-            </h1>
-        </div>
-        <header class="sticky">
-            <a href="#" class="navbar-logo">LD</a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#work">Work Experience</a></li>
-                <li><a href="#projects">Projects/Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </header>
-        <section class="navbar"></section>
-        <script type="text/javascript">
-            window.addEventListener("scroll", function(){
-                var header = document.querySelector("header");
-                header.classlist.toggle("sticky", window.scrollY > 0);
-            })
-        </script>
+    <!-- SPLASH SCREEN -->
+    <div class="intro">
+        <h1 class="logo-header">
+            <span class="logo">Website under development! Last updated: August 2024</span>
+        </h1>
+    </div>
 
-        <script src="app.js"></script>
-        
-                
-        
-        <div class="tree-text">
-          <div class="intro-img-and-text">
-            <img class="intro-pic" src="WebImages/PicCollage7.png" alt="Photos of Lucas">
-          </div>
-          <div class="intro-txt-container">
-              <h3 class="big-txt">Hi,<br>I'm Lucas</h3>
-              <h4 class="intro-description">I'm a 3A biomedical engineering student at the University of Waterloo. 
-                With work experience in mechanical engineering, machine learning, plant biology, product design, and product management, 
-                plus personal projects in software, hardware 
-                and design, I strive to be a well-rounded individual who is quick to learn and develop new skills. 
-              </h4>
-              <h4 class="intro-description" style="padding-top: 3%">
-                Please click here to download my 
-                <a href="https://drive.google.com/file/d/1JElszapOwRwmzkwJih1igHQEXG-QC4xv/view?usp=sharing" download="LucasDeMelloResume.pdf" target="_blank">resume</a>
-                (last updated Sept 2023) or 
-                <a href="https://drive.google.com/file/d/1BIBYL44xp3Wnn9PwWM2dogxH_Gaz0Fny/view?usp=sharing" download="LucasDeMelloPortfolio.pdf" target="_blank">portfolio</a>
-                (last updated Sept 2023)
-              </h4>
-          </div>
-        </div>
+    <!-- NAVBAR -->
+    <header class="sticky">
+        <a href="#" class="navbar-logo">LD</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#work">Work Experience</a></li>
+            <li><a href="#projects">Projects/Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section class="navbar"></section>
 
-        <div class="fulltestimonial">
-          <div class="testimonialcontainer">
-            <div class="title">
-              <h1 class="title">Testimonials</h1>
-            </div>
-            <div class="testimonial mySwiper" style="padding: 28px">
-              <div class="testi-content swiper-wrapper">
-  
-                <div class="testimonialslide swiper-slide">
-                  <!-- <img src="WebImages/Phil1.png" alt="" class="testimonialimage" /> -->
-                  <p class="testimonialquote">
-                    Lucas has demonstrated a very proactive approach to his work in both what has been assigned and also actively seeking additional projects/scopes to be involved with, this has included areas outside of his background schooling where he has adapted well. An excellent Coop placement for Lucas, where his character and work ethic have been evident from the start.
-                  </p>
-                  <i class='bx bxs-quote-alt-left quote-icon'></i>
-  
-                  <div class="testimonialdetails">
-                    <span class="testimonialname">Phillip Byrne</span>
-                    <span class="testimonialjob">Plant Engineer @ IKO Madoc</span>
-                  </div>
-                </div>
-  
-                <div class="testimonialslide swiper-slide">
-                  <!-- <img src="WebImages/Dom.jpg" alt="" class="testimonialimage" /> -->
-                  <p class="testimonialquote">
-                    Lucas consistently exemplifies unwavering commitment to his training regimen, epitomizing a relentless pursuit of improvement.  This is even more impressive given his young age.  His recent marathon result of 3:50 stands as a testament to his dedication.  With such a strong foundation, it's evident that Lucas is poised for continuous growth, ensuring that his journey toward excellence is far from reaching its zenith.
-                  </p>
-                  <i class='bx bxs-quote-alt-left quote-icon'></i>
-  
-                  <div class="testimonialdetails">
-                    <span class="testimonialname">Domenic Oppedisano</span>
-                    <span class="testimonialjob">Marathon and IM70.3 Finisher</span>
-                  </div>
-                </div>
+    <!-- INTRO IMAGE COLLAGE, TITLE, BIO -->
+    <div class="intro-img-and-text">
+      <img class="intro-pic" src="WebImages/2.png" alt="Photos of Lucas">
+    </div>
+    <div class="intro-txt-container">
+      <h3 class="big-txt">Hi,<br>I'm Lucas</h3>
+      <h4 class="intro-description">I'm a 3A biomedical engineering student at the University of Waterloo. 
+        With work experience in mechanical engineering, machine learning, plant biology, product design, and product management, 
+        plus personal projects in software, hardware 
+        and design, I strive to be a well-rounded individual who is quick to learn and develop new skills. 
+      </h4>
+      <h4 class="intro-description" style="padding-top: 3%">
+        Please click here to download my 
+        <a href="https://drive.google.com/file/d/1JElszapOwRwmzkwJih1igHQEXG-QC4xv/view?usp=sharing" download="LucasDeMelloResume.pdf" target="_blank">resume</a>
+        (last updated Sept 2023) or 
+        <a href="https://drive.google.com/file/d/1BIBYL44xp3Wnn9PwWM2dogxH_Gaz0Fny/view?usp=sharing" download="LucasDeMelloPortfolio.pdf" target="_blank">portfolio</a>
+        (last updated Sept 2023)
+      </h4>
+    </div>
 
-                <div class="testimonialslide swiper-slide">
-                  <!-- <img src="WebImages/Spiderman1.png" alt="" class="testimonialimage" /> -->
-                  <p class="testimonialquote">
-                    I had Lucas work for me during the summer. He was a friendly & kind team member. He was approachable and personable with the many children and families he met while portraying a variety of heroic characters.
-                  </p>
-                  <i class='bx bxs-quote-alt-left quote-icon'></i>
-  
-                  <div class="testimonialdetails">
-                    <span class="testimonialname">Sandra Craig</span>
-                    <span class="testimonialjob">Owner @ Fairytale Parties</span>
-                  </div>
-                </div>
-
-                <div class="testimonialslide swiper-slide">
-                  <!-- <img src="" alt="" class="testimonialimage" /> -->
-                  <p class="testimonialquote">
-                    Lucas is not only one of the most reliable students I’ve ever worked with, he is also exceptionally diligent. As his teacher, he is the kind of young person that is always years ahead of his peers and any environment, classroom or otherwise, is better for having him in it.
-                  </p>
-                  <i class='bx bxs-quote-alt-left quote-icon'></i>
-  
-                  <div class="testimonialdetails">
-                    <span class="testimonialname">Taylor Johnston</span>
-                    <span class="testimonialjob">Teacher @ St. Andrew's College</span>
-                  </div>
-                </div>
-
-                <div class="testimonialslide swiper-slide">
-                  <!-- <img src="WebImages/Scoreboard2.JPG" alt="" class="testimonialimage" /> -->
-                  <p class="testimonialquote">
-                    Lucas is awesome to work with, he is a wonderful asset to our team. Additionally, he has extensive knowledge of Game of Thrones. Unlike Littlefinger, he has a bright future!
-                  </p>
-                  <i class='bx bxs-quote-alt-left quote-icon'></i>
-  
-                  <div class="testimonialdetails">
-                    <span class="testimonialname">Mingyu Li</span>
-                    <span class="testimonialjob">Mechanical Engineer @ OES</span>
-                  </div>
-                </div>
-
-                <div class="testimonialslide swiper-slide">
-                  <!-- <img src="WebImages/Watson1.jpg" alt="" class="testimonialimage" /> -->
-                  <p class="testimonialquote">
-                    Lucas’ enthusiasm and professionalism were a tremendous asset to our ensemble.
-                  </p>
-                  <i class='bx bxs-quote-alt-left quote-icon'></i>
-  
-                  <div class="testimonialdetails">
-                    <span class="testimonialname">Dr. Kevin Watson</span>
-                    <span class="testimonialjob">Associate Professor of Music Education @ Western & Director of the Western Jazz Ensemble</span>
-                  </div>
-                </div>
-  
-              </div>
-              <div class="testimonialnavbtn swiper-button-next" id="testimonialnavbtnsizing"></div>
-              <div class="testimonialnavbtn swiper-button-prev" id="testimonialnavbtnsizing"></div>
-              <div class="swiper-pagination" style="position: relative; margin-top: 25px;"></div>
-            </div>
-          </div>
-        </div>
-        
-        
-        
-        <div class="timeline" style="background-color: #f5f5f5;" id="work">
-            <div class="title">
-                <h1 class="title">Work Experience</h1>
-            </div>
-
-            <div class="datec left">
-                <div class="date" style="text-align:right">
-                  <h2 class="date">May 2024 - August 2024</h2>
-                </div>
-            </div>
-            <div class="container right">
-              <div class="content">
-                <h2 class="job-title">Biological Machine Learning Research Intern @ UC Davis</h2>
-                <p class="job-location">Davis, California | Co-op full-time | <a href="https://www.bradylab.org/" target="_blank">https://www.bradylab.org/</a></p>
-                <p class="job-text" style="color: gray">I designed a machine learning object recognition pipeline using Python that anaylzes key features
-                  of sorghum root cross-sections that may help distrupt Striga hermonithica from forming xylem bridges, for example, percentage of aerenchyma, 
-                  concentration of fluoral yellow (indicative of suberin), and concentration of TRITC (indicative of lignin).
-                </p>
-              </div>
-            </div>
-
-            <div class="datec left">
-                <div class="date" style="text-align:right">
-                  <h2 class="date">September 2023 - December 2023</h2>
-                </div>
-            </div>
-            <div class="container right">
-              <div class="content">
-                <h2 class="job-title">Mechanical Design Associate @ OES</h2>
-                <p class="job-location">London, Ontario | Co-op full-time | <a href="https://www.oes-inc.com/" target="_blank">https://www.oes-inc.com</a></p>
-                <p class="job-text" style="color: gray">I created mechanical drawings, layouts, BoMs, and 3D models of custom scoreboards and other
-                   products. Additionally, I designed solutions to issues with existing processes and designed + ran experiments to determine 
-                   optimized scoreboard installation method.</p>
-              </div>
-            </div>
-
-            <div class="datec left">
-                <div class="date" style="text-align:right">
-                  <h2 class="date">January 2023 - April 2023</h2>
-                </div>
-            </div>
-            <div class="container right">
-              <div class="content">
-                <h2 class="job-title">Engineering Co-op @ IKO Industries</h2>
-                <p class="job-location">Madoc, Ontario | Co-op full-time | <a href="https://www.iko.com/" target="_blank">https://www.iko.com</a></p>
-                <p class="job-text" style="color: gray">I managed the implementation of capital projects by designing, 
-                    installing and commissioning new production units, 
-                    monitored modifications or upgrades, 
-                    and troubleshot or improved existing processes.</p>
-              </div>
-            </div>
-            <div class="datec left">
-                <div class="date" style="text-align:right">
-                  <h2 class="date">May 2022 - August 2022</h2>
-                </div>
-            </div>
-            <div class="container right">
-              <div class="content">
-                <h2 class="job-title">Product Management Intern @ KixCare</h2>
-                <p class="job-location">Remote | Co-op full-time | <a href="https://www.kixcare.com/en/" target="_blank">https://www.kixcare.com</a></p>
-                <p class="job-text" style="color: gray">I enhanced clinical workflows by acting on provider and user feedback,
-                    created and engaged in a process to obtain user feedback from dozens of users to present to management,
-                    and analyzed user demographics on Excel to predict user trends and increase the effectiveness of advertising.
-                </p>
-              </div>
-            </div>
-            <div class="datec left">
-                <div class="date" style="text-align:right">
-                  <h2 class="date">July 2020 - August 2021</h2>
-                </div>
-            </div>
-            <div class="container right">
-              <div class="content">
-                <h2 class="job-title">Ophthalmic Technician and Patient Services Specialist @ Clarity Eye Institute</h2>
-                <p class="job-location">Vaughan, Ontario | Full-time, part-time | <a href="https://www.clarityeye.ca/" target="_blank">https://www.clarityeye.ca</a></p>
-                <p class="job-text" style="color: gray">I prepped patients for intravitreal injections with reagents, conducted pre/post-operative 
-                    intraocular pressure tests, operated medical imaging technology including autorefractors, visual fields,
-                    and optical coherence tomography machines, and managed front desk as required.</p>
-              </div>
-            </div>
-            <div class="datec left">
-                <div class="date" style="text-align:right">
-                  <h2 class="date">September 2021 - Ongoing</h2>
-                </div>
-            </div>
-            <div class="container right">
-              <div class="content">
-                <h2 class="job-title">Math Den Supervisor @ St. Andrew's College / STEM Tutor self-employed</h2>
-                <p class="job-location">Hybrid | Part-time | <a href="https://www.sac.on.ca/" target="_blank">https://www.sac.on.ca</a></p>
-                <p class="job-text" style="color: gray; margin-bottom: 5%">While working 
-                  at St. Andrew's College from September 2023 - May 2024, I tutored students in all high school maths, 
-                  including functions, calculus, vectors, and statistics, and data management. Previously, I
-                  tutored three highschool students in the subjects of Calculus & Vectors, Grade 11 Chemistry, and Grade 11 Physics.</p>
-              </div>
-            </div>
-            <div class="datec left">
-                <div class="date" style="text-align:right">
-                  <h2 class="date">September 2022 - August 2023</h2>
-                </div>
-            </div>
-            <div class="container right">
-              <div class="content">
-                <h2 class="job-title">Performer @ Fairytale Parties</h2>
-                <p class="job-location">Waterloo, Ontario | Part-time | <a href="https://www.fairytaleparties.ca/" target="_blank">https://www.fairytaleparties.ca</a></p>
-                <p class="job-text" style="color: gray; margin-bottom: 10%">Dressed as characters including Spiderman, Superman, Robin and Mario, I
-                attended birthday parties or community events to lead activities with the kids, and teach them how to be superheroes!</p>
-              </div>
-            </div>
-            
-          </div>
-        
+    <!-- TESTIMONIALS -->
+    <div class="fulltestimonial">
+      <div class="testimonialcontainer">
         <div class="title">
-            <h1 class="title">Skills</h1>
+          <h1 class="title">Testimonials</h1>
         </div>
-        <div class="grid-container-skills">
-          <div class="grid-item grid-item-code-1">
-            <div><img src="WebImages/CSharp.png" alt="c#"></div>
-            <p class="skills-text">C#</p>
-          </div>
-          <div class="grid-item grid-item-code-2">
-            <div><img src="WebImages/CPlusPlus.png" alt="c#"></div>
-            <p class="skills-text">C++</p>
-          </div>
-          <div class="grid-item grid-item-code-3">
-            <div><img src="WebImages/Java.png"c#"></div>
-            <p class="skills-text">Java</p>
-          </div>
-          <div class="grid-item grid-item-code-4">
-            <div><img src="WebImages/Python.png" alt="c#"></div>
-            <p class="skills-text">Python</p>
-          </div>
-          <div class="grid-item grid-item-code-5">
-            <div><img src="WebImages/React.png" alt="c#"></div>
-            <p class="skills-text">React</p>
-          </div>
-          <div class="grid-item grid-item-code-6">
-            <div><img src="WebImages/HTML.png" alt="c#"></div>
-            <p class="skills-text">HTML</p>
-          </div>
-          <div class="grid-item grid-item-code-7">
-            <div><img src="WebImages/CSS.png" alt="c#"></div>
-            <p class="skills-text">CSS</p>
-          </div>
-        </div>
-        <div class="grid-container-skills" style="margin-top: 2rem; margin-bottom: 3%">
-          <div class="grid-item grid-item-code-1">
-            <div><img src="WebImages/Arduino.png" alt="c#"></div>
-            <p class="skills-text">Arduino</p>
-          </div>
-          <div class="grid-item grid-item-code-2">
-            <div><img src="WebImages/Solidworks.png" alt="c#"></div>
-            <p class="skills-text">Solidworks</p>
-          </div>
-          <div class="grid-item grid-item-code-3">
-            <div><img src="WebImages/OnShape.png"c#"></div>
-            <p class="skills-text">OnShape</p>
-          </div>
-          <div class="grid-item grid-item-code-4">
-            <div><img src="WebImages/Inventor.png" alt="c#"></div>
-            <p class="skills-text">Inventor</p>
-          </div>
-          <div class="grid-item grid-item-code-5">
-            <div><img src="WebImages/Vault.png" alt="c#"></div>
-            <p class="skills-text">Vault</p>
-          </div>
-          <div class="grid-item grid-item-code-6">
-            <div><img src="WebImages/Unity.png" alt="c#"></div>
-            <p class="skills-text">Unity</p>
-          </div>
-          <div class="grid-item grid-item-code-7">
-            <div><img src="WebImages/Premiere.png" alt="c#"></div>
-            <p class="skills-text">Premiere Pro</p>
-          </div>
+        <div class="testimonial mySwiper" style="padding: 28px">
+          <div class="testi-content swiper-wrapper">
 
+            <!-- PHILLIP BYRNE -->
+            <div class="testimonialslide swiper-slide">
+              <p class="testimonialquote">
+                Lucas has demonstrated a very proactive approach to his work in both what has been assigned 
+                and also actively seeking additional projects/scopes to be involved with, this has included 
+                areas outside of his background schooling where he has adapted well. An excellent Coop placement 
+                for Lucas, where his character and work ethic have been evident from the start.
+              </p>
+              <i class='bx bxs-quote-alt-left quote-icon'></i>
+              <div class="testimonialdetails">
+                <span class="testimonialname">Phillip Byrne, P. Eng.</span>
+                <span class="testimonialjob">Plant Engineer @ IKO Madoc</span>
+              </div>
+            </div>
+
+            <!-- DOMENIC OPPEDISANO -->
+            <div class="testimonialslide swiper-slide">
+              <p class="testimonialquote">
+                Lucas consistently exemplifies unwavering commitment to his training regimen, epitomizing a relentless 
+                pursuit of improvement.  This is even more impressive given his young age.  His recent marathon result of 
+                3:50 stands as a testament to his dedication.  With such a strong foundation, it's evident that Lucas is 
+                poised for continuous growth, ensuring that his journey toward excellence is far from reaching its zenith.
+              </p>
+              <i class='bx bxs-quote-alt-left quote-icon'></i>
+              <div class="testimonialdetails">
+                <span class="testimonialname">Domenic Oppedisano</span>
+                <span class="testimonialjob">CRO @ Ciot, Marathon and IM70.3 Finisher</span>
+              </div>
+            </div>
+
+            <!-- KEVIN MORIMOTO -->
+            <div class="testimonialslide swiper-slide">
+              <p class="testimonialquote">
+                Lucas is a remarkably innovative researcher. His strong sense of commitment and adaptability 
+                has led to finding solutions to challenging research projects. In addition to his warm and 
+                engaging character, Lucas has been a fantastic teammate to work with.
+              </p>
+              <i class='bx bxs-quote-alt-left quote-icon'></i>
+              <div class="testimonialdetails">
+                <span class="testimonialname">Kevin Morimoto</span>
+                <span class="testimonialjob">PhD Candidate @ UC Davis Department of Plant Biology and Genome Center</span>
+              </div>
+            </div>
+
+            <!-- SANDRA CRAIG -->
+            <div class="testimonialslide swiper-slide">
+              <p class="testimonialquote">
+                I had Lucas work for me during the summer. He was a friendly & kind team member. He was approachable and 
+                personable with the many children and families he met while portraying a variety of heroic characters.
+              </p>
+              <i class='bx bxs-quote-alt-left quote-icon'></i>
+              <div class="testimonialdetails">
+                <span class="testimonialname">Sandra Craig</span>
+                <span class="testimonialjob">Owner @ Fairytale Parties</span>
+              </div>
+            </div>
+
+            <!-- TAYLOR JOHNSTON -->
+            <div class="testimonialslide swiper-slide">
+              <p class="testimonialquote">
+                Lucas is not only one of the most reliable students I’ve ever worked with, he is also exceptionally diligent. 
+                As his teacher, he is the kind of young person that is always years ahead of his peers and any environment, 
+                classroom or otherwise, is better for having him in it.
+              </p>
+              <i class='bx bxs-quote-alt-left quote-icon'></i>
+              <div class="testimonialdetails">
+                <span class="testimonialname">Taylor Johnston</span>
+                <span class="testimonialjob">Teacher @ St. Andrew's College</span>
+              </div>
+            </div>
+
+            <!-- STEFAN SANOW -->
+            <div class="testimonialslide swiper-slide">
+              <p class="testimonialquote">
+                Lucas was able to adjust to a new environment quickly and showed initiative while progressing with his machine 
+                learning pipeline. He assessed the challenges involved in his work and demonstrated the ability to solve them 
+                efficiently, through both teamwork and independent work. He took advantage of the resources around him to ask 
+                questions, helping him learn and further develop his work. His communicative and inquisitive nature helps him 
+                easily integrate into any existing teams or workflows. Well done Lucas!
+              </p>
+              <i class='bx bxs-quote-alt-left quote-icon'></i>
+              <div class="testimonialdetails">
+                <span class="testimonialname">Dr. Stefan Sanow</span>
+                <span class="testimonialjob">Researcher @ The Brady Lab, UC Davis</span>
+              </div>
+            </div>
+
+            <!-- MINGYU LI -->
+            <div class="testimonialslide swiper-slide">
+              <p class="testimonialquote">
+                Lucas is awesome to work with, he is a wonderful asset to our team. Additionally, he has extensive knowledge of 
+                Game of Thrones. Unlike Littlefinger, he has a bright future!
+              </p>
+              <i class='bx bxs-quote-alt-left quote-icon'></i>
+              <div class="testimonialdetails">
+                <span class="testimonialname">Mingyu Li</span>
+                <span class="testimonialjob">Mechanical Engineer @ OES</span>
+              </div>
+            </div>
+
+            <!-- KEVIN WATSON -->
+            <div class="testimonialslide swiper-slide">
+              <!-- <img src="WebImages/Watson1.jpg" alt="" class="testimonialimage" /> -->
+              <p class="testimonialquote">
+                Lucas’ enthusiasm and professionalism were a tremendous asset to our ensemble.
+              </p>
+              <i class='bx bxs-quote-alt-left quote-icon'></i>
+              <div class="testimonialdetails">
+                <span class="testimonialname">Dr. Kevin Watson, PhD</span>
+                <span class="testimonialjob">Associate Professor of Music Education @ Western & Director of the Western Jazz Ensemble</span>
+              </div>
+            </div>
+
+            <!-- BARBARA KAPLANEK -->
+            <div class="testimonialslide swiper-slide">
+              <!-- <img src="WebImages/Watson1.jpg" alt="" class="testimonialimage" /> -->
+              <p class="testimonialquote">
+                Lucas is one of the most reliable team members I've ever had a pleasure to work with while managing the Kitchener Waterloo 
+                Youth Orchestra. Lucas is always on the top of assignments, very enthusiastic, communicative and caring for other teammates, 
+                ready to step up whenever needed. As an orchestra musician Lucas is consistently prepared to execute his parts with excellence, 
+                demonstrating his musicality, high work ethics and commitment. Thank you, Lucas!
+              </p>
+              <i class='bx bxs-quote-alt-left quote-icon'></i>
+              <div class="testimonialdetails">
+                <span class="testimonialname">Barbara Kaplanek</span>
+                <span class="testimonialjob">Kitchener-Waterloo Youth Orchestra Manager</span>
+              </div>
+            </div>
+
+          </div>
+          <div class="testimonialnavbtn swiper-button-next" id="testimonialnavbtnsizing"></div>
+          <div class="testimonialnavbtn swiper-button-prev" id="testimonialnavbtnsizing"></div>
+          <div class="swiper-pagination" style="position: relative; margin-top: 25px;"></div>
         </div>
-    <div style="background-color: #f5f5f5; padding-bottom: 7%;" id="projects"> 
-          <div class="title">
-            <h1 class="title">Sample Projects</h1>
+      </div>
+    </div>
+      
+    <!-- WORK EXPERIENCE TIMELINE -->
+    <div class="timeline" style="background-color: #f5f5f5;" id="work">
+      <div class="title">
+        <h1 class="title">Work Experience</h1>
+      </div>
+
+      <!-- UC DAVIS -->
+      <div class="datec left">
+          <div class="date" style="text-align:right">
+            <h2 class="date">May 2024 - August 2024</h2>
           </div>
-        
-        <!-- <h2 class="job-title" style="text-align: center; margin-bottom: 3%; font-size: 30px; text-decoration: underline;">Software/Hardware</h2> -->
-        
-        <div class="unique-card-wrapper">
-          <div class="unique-card" data-images="WebImages/Prosthetic1.jpg,WebImages/ProstheticCircuit.png,WebImages/ProstheticSolidworksFinal.png,WebImages/ProstheticTopArmFEA.png">
-              <button class="unique-arrow unique-left-arrow">&#9664;</button>
-              <div class="unique-image-container">
-                  <img class="unique-card-image imgLink" src="WebImages/Prosthetic1.jpg" alt="Image">
-                  <div class="overlay"></div>
-              </div>
-              <button class="unique-arrow unique-right-arrow">&#9654;</button>
-              <div class="unique-text-container">
-                  <h2>EMG Prosthetic Device</h2>
-                  <p>This project allowed me to strengthen my skills in design/CAD, 
-                    critical thinking in the context of circuitry, and Arduino software/hardware development.
-                    <br><br>
-                    My 2B term project was a prosthetic device that used forearm EMG signals to actuate movement and twist a doorknob. 
-                    The EMG signal was collected from electrodes on the user's forearm, and was then put through a custom circuit 
-                    consisting of an instrumentation amp, bandpass filter, buffer, and integrator. It was then processed by an Arduino, 
-                    which actuated servo motion to clamp the doorknob. 
-                    <br><br> The design was created in Solidworks and variables including 
-                    vertical printing, adjustability, printing time/costs, material, infill, tolerancing and anthropomorphic data were all 
-                    considered. An FEA was conducted to ensure the print would be structurally stable and functional.</p>
-              </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2 class="job-title">Biological Machine Learning Research Intern @ UC Davis</h2>
+          <p class="job-location">Davis, California | Co-op full-time | <a href="https://www.bradylab.org/" target="_blank">https://www.bradylab.org/</a></p>
+          <p class="job-text" style="color: gray">I designed a machine learning object recognition pipeline using Python that anaylzes key features
+            of sorghum root cross-sections that may help distrupt Striga hermonithica from forming xylem bridges, for example, percentage of aerenchyma, 
+            concentration of fluoral yellow (indicative of suberin), and concentration of TRITC (indicative of lignin).
+          </p>
+        </div>
+      </div>
+
+      <!-- OES INC -->
+      <div class="datec left">
+        <div class="date" style="text-align:right">
+          <h2 class="date">September 2023 - December 2023</h2>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2 class="job-title">Mechanical Design Associate @ OES</h2>
+          <p class="job-location">London, Ontario | Co-op full-time | <a href="https://www.oes-inc.com/" target="_blank">https://www.oes-inc.com</a></p>
+          <p class="job-text" style="color: gray">I created mechanical drawings, layouts, BoMs, and 3D models of custom scoreboards and other
+            products. Additionally, I designed solutions to issues with existing processes and designed + ran experiments to determine 
+            optimized scoreboard installation method.</p>
+        </div>
+      </div>
+
+      <!-- IKO -->
+      <div class="datec left">
+        <div class="date" style="text-align:right">
+          <h2 class="date">January 2023 - April 2023</h2>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2 class="job-title">Engineering Co-op @ IKO Industries</h2>
+          <p class="job-location">Madoc, Ontario | Co-op full-time | <a href="https://www.iko.com/" target="_blank">https://www.iko.com</a></p>
+          <p class="job-text" style="color: gray">I managed the implementation of capital projects by designing, 
+            installing and commissioning new production units, 
+            monitored modifications or upgrades, 
+            and troubleshot or improved existing processes.</p>
+        </div>
+      </div>
+
+      <!-- KIXCARE -->
+      <div class="datec left">
+        <div class="date" style="text-align:right">
+          <h2 class="date">May 2022 - August 2022</h2>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2 class="job-title">Product Management Intern @ KixCare</h2>
+          <p class="job-location">Remote | Co-op full-time | <a href="https://www.kixcare.com/en/" target="_blank">https://www.kixcare.com</a></p>
+          <p class="job-text" style="color: gray">I enhanced clinical workflows by acting on provider and user feedback,
+            created and engaged in a process to obtain user feedback from dozens of users to present to management,
+            and analyzed user demographics on Excel to predict user trends and increase the effectiveness of advertising.</p>
+        </div>
+      </div>
+
+      <!-- CLARITY EYE -->
+      <div class="datec left">
+          <div class="date" style="text-align:right">
+            <h2 class="date">July 2020 - August 2021</h2>
           </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2 class="job-title">Ophthalmic Technician and Patient Services Specialist @ Clarity Eye Institute</h2>
+          <p class="job-location">Vaughan, Ontario | Full-time, part-time | <a href="https://www.clarityeye.ca/" target="_blank">https://www.clarityeye.ca</a></p>
+          <p class="job-text" style="color: gray">I prepped patients for intravitreal injections with reagents, conducted pre/post-operative 
+            intraocular pressure tests, operated medical imaging technology including autorefractors, visual fields,
+            and optical coherence tomography machines, and managed front desk as required.</p>
+        </div>
+      </div>
+      <!-- MATH DEN SUPERVISOR AND TUTOR-->
+      <div class="datec left">
+        <div class="date" style="text-align:right">
+          <h2 class="date">September 2021 - May 2024</h2>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2 class="job-title">Math Den Supervisor @ St. Andrew's College / STEM Tutor self-employed</h2>
+          <p class="job-location">Hybrid | Part-time | <a href="https://www.sac.on.ca/" target="_blank">https://www.sac.on.ca</a></p>
+          <p class="job-text" style="color: gray; margin-bottom: 5%">While working 
+            at St. Andrew's College from September 2023 - May 2024, I tutored students in all high school maths, 
+            including functions, calculus, vectors, and statistics, and data management. Previously, I
+            tutored three highschool students in the subjects of Calculus & Vectors, Grade 11 Chemistry, and Grade 11 Physics.</p>
+        </div>
+      </div>
+      <!-- FAIRYTALE PARTIES -->
+      <div class="datec left">
+        <div class="date" style="text-align:right">
+          <h2 class="date">September 2022 - April 2024</h2>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2 class="job-title">Performer @ Fairytale Parties</h2>
+          <p class="job-location">Waterloo, Ontario | Part-time | <a href="https://www.fairytaleparties.ca/" target="_blank">https://www.fairytaleparties.ca</a></p>
+          <p class="job-text" style="color: gray; margin-bottom: 10%">Dressed as characters including Spiderman, Superman, Robin and Mario, I
+          attended birthday parties or community events to lead activities with the kids, and teach them how to be superheroes!</p>
+        </div>
+      </div>  
+    </div>
+    
+    <!-- SKILLS -->
+    <div>
+      <div class="title">
+        <h1 class="title">Skills</h1>
+      </div>
+
+      <!-- FIRST ROW -->
+      <div class="grid-container-skills">
+        <div class="grid-item grid-item-code-1">
+          <div><img src="WebImages/CSharp.png" alt="c#"></div>
+          <p class="skills-text">C#</p>
+        </div>
+        <div class="grid-item grid-item-code-2">
+          <div><img src="WebImages/CPlusPlus.png" alt="c#"></div>
+          <p class="skills-text">C++</p>
+        </div>
+        <div class="grid-item grid-item-code-3">
+          <div><img src="WebImages/Java.png"c#"></div>
+          <p class="skills-text">Java</p>
+        </div>
+        <div class="grid-item grid-item-code-4">
+          <div><img src="WebImages/Python.png" alt="c#"></div>
+          <p class="skills-text">Python</p>
+        </div>
+        <div class="grid-item grid-item-code-5">
+          <div><img src="WebImages/React.png" alt="c#"></div>
+          <p class="skills-text">React</p>
+        </div>
+        <div class="grid-item grid-item-code-6">
+          <div><img src="WebImages/HTML.png" alt="c#"></div>
+          <p class="skills-text">HTML</p>
+        </div>
+        <div class="grid-item grid-item-code-7">
+          <div><img src="WebImages/CSS.png" alt="c#"></div>
+          <p class="skills-text">CSS</p>
+        </div>
+      </div>
+
+      <!-- SECOND ROW -->
+      <div class="grid-container-skills" style="margin-top: 2rem; margin-bottom: 3%">
+        <div class="grid-item grid-item-code-1">
+          <div><img src="WebImages/Arduino.png" alt="c#"></div>
+          <p class="skills-text">Arduino</p>
+        </div>
+        <div class="grid-item grid-item-code-2">
+          <div><img src="WebImages/Solidworks.png" alt="c#"></div>
+          <p class="skills-text">Solidworks</p>
+        </div>
+        <div class="grid-item grid-item-code-3">
+          <div><img src="WebImages/OnShape.png"c#"></div>
+          <p class="skills-text">OnShape</p>
+        </div>
+        <div class="grid-item grid-item-code-4">
+          <div><img src="WebImages/Inventor.png" alt="c#"></div>
+          <p class="skills-text">Inventor</p>
+        </div>
+        <div class="grid-item grid-item-code-5">
+          <div><img src="WebImages/Vault.png" alt="c#"></div>
+          <p class="skills-text">Vault</p>
+        </div>
+        <div class="grid-item grid-item-code-6">
+          <div><img src="WebImages/Unity.png" alt="c#"></div>
+          <p class="skills-text">Unity</p>
+        </div>
+        <div class="grid-item grid-item-code-7">
+          <div><img src="WebImages/Premiere.png" alt="c#"></div>
+          <p class="skills-text">Premiere Pro</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SAMPLE PROJECTS -->
+    <div style="background-color: #f5f5f5; padding-bottom: 4%;" id="projects"> 
+      <div class="title">
+        <h1 class="title">Sample Projects</h1>
       </div>
       
+      <!-- PROSTHETIC ARM -->
       <div class="unique-card-wrapper">
-          <div class="unique-card" data-images="WebImages/Jet.jpg, WebImages/JetTop.jpg, WebImages/JetBottom.jpg, WebImages/JetFrontBack.jpg">
-              <button class="unique-arrow unique-left-arrow">&#9664;</button>
-              <div class="unique-image-container">
-                  <img class="unique-card-image imgLink" src="WebImages/Jet.jpg" alt="Image">
-                  <div class="overlay"></div>
-              </div>
-              <button class="unique-arrow unique-right-arrow">&#9654;</button>
-              <div class="unique-text-container">
-                  <h2>Dassault Rafale</h2>
-                  <p>This project allowed me to strengthen my skills in design/CAD, and Solidworks.
-                    <br><br>
-                    I’ve always had a fascination with military history and technological advancements, particularly with aircraft. 
-                    The evolution of fighters like the SBD Dauntless, Zeroes, or Stuka dive bombers from WW2 all the way up to our current fifth-gen fighters 
-                    like the F35 Lightning II is super interesting. With a desire to model a fighter jet, I wanted to select a lesser-known aircraft that is 
-                    still very important in today’s geopolitical atmosphere. The Dassault Rafale was manufactured by Dassault Aviation in France, and has seen 
-                    action in Afghanistan, Mali, Libya, Iraq and Syria. Being employed by countries like Egypt, Qatar, and India, these fighters play crucial roles 
-                    in the balance of power of various nations in the Middle East and south Asia. 
-                  <!-- <br><br>
-                  I designed this jet in Solidworks using a variety of features including planes, boundaries, mirrors, extrudes, cuts, fillets, 
-                  lofts, sweeps, split lines, revolves, and circular patterns. -->
-                  </p>
-              </div>
+        <div class="unique-card" data-images="WebImages/Prosthetic1.jpg,WebImages/ProstheticCircuit.png,WebImages/ProstheticSolidworksFinal.png,WebImages/ProstheticTopArmFEA.png">
+          <button class="unique-arrow unique-left-arrow">&#9664;</button>
+          <div class="unique-image-container">
+            <img class="unique-card-image imgLink" src="WebImages/Prosthetic1.jpg" alt="Image">
+            <div class="overlay"></div>
           </div>
-      </div>
-
-      <div class="unique-card-wrapper">
-        <div class="unique-card" data-images="WebImages/EndodermisPred.jpg, WebImages/SuberinConcentrationPipeline.jpg">
-            <button class="unique-arrow unique-left-arrow">&#9664;</button>
-            <div class="unique-image-container">
-                <img class="unique-card-image imgLink" src="WebImages/EndodermisPred.jpg" alt="Image">
-                <div class="overlay"></div>
-            </div>
-            <button class="unique-arrow unique-right-arrow">&#9654;</button>
-            <div class="unique-text-container">
-                <h2>ML Automated Image Analysis Pipeline</h2>
-                <p>This project allowed me to strengthen my skills in Python, 
-                  machine learning model implementation, and bio-marker/microscopy image analysis.
-                  <br><br>
-                  While working in the Brady Lab at UC Davis, I was tasked with creating this pipeline. The goal of the research is 
-                  to determine factors in sorghum roots that prevent Striga hermonithica from forming a xylem bridge post-attachment, 
-                  for example, amount of aerenchyma, suberin concentration, and lignin concentration. Gathering this information by hand from root 
-                  cross-sections I imaged with a Cytation C10 Confocal Microscope is very time-consuming, which is where the pipeline comes in. 
-                  I annotated hundreds of cross-sections to train the Yolov8 model to 
-                  to isolate the endodermis, and then I used HSV and grayscale to determine the brightness of fluoral yellow in the endodermis, which 
-                  indicates suberin concentration.
-                </p>
-            </div>
+          <button class="unique-arrow unique-right-arrow">&#9654;</button>
+          <div class="unique-text-container">
+            <h2>EMG Prosthetic Device</h2>
+            <p>This project allowed me to strengthen my skills in design/CAD, 
+              critical thinking in the context of circuitry, and Arduino software/hardware development.
+              <br><br>
+              My 2B term project was a prosthetic device that used forearm EMG signals to actuate movement and twist a doorknob. 
+              The EMG signal was collected from electrodes on the user's forearm, and was then put through a custom circuit 
+              consisting of an instrumentation amp, bandpass filter, buffer, and integrator. It was then processed by an Arduino, 
+              which actuated servo motion to clamp the doorknob. 
+              <br><br> The design was created in Solidworks and variables including 
+              vertical printing, adjustability, printing time/costs, material, infill, tolerancing and anthropomorphic data were all 
+              considered. An FEA was conducted to ensure the print would be structurally stable and functional.</p>
+          </div>
+        </div>
+    </div>
+    
+    <!-- DASSAULT RAFALE -->
+    <div class="unique-card-wrapper">
+      <div class="unique-card" data-images="WebImages/Jet.jpg, WebImages/JetTop.jpg, WebImages/JetBottom.jpg, WebImages/JetFrontBack.jpg">
+        <button class="unique-arrow unique-left-arrow">&#9664;</button>
+        <div class="unique-image-container">
+          <img class="unique-card-image imgLink" src="WebImages/Jet.jpg" alt="Image">
+          <div class="overlay"></div>
+        </div>
+        <button class="unique-arrow unique-right-arrow">&#9654;</button>
+        <div class="unique-text-container">
+          <h2>Dassault Rafale</h2>
+          <p>This project allowed me to strengthen my skills in design/CAD, and Solidworks.
+            <br><br>
+            I’ve always had a fascination with military history and technological advancements, particularly with aircraft. 
+            The evolution of fighters like the SBD Dauntless, Zeroes, or Stuka dive bombers from WW2 all the way up to our current fifth-gen fighters 
+            like the F35 Lightning II is super interesting. With a desire to model a fighter jet, I wanted to select a lesser-known aircraft that is 
+            still very important in today’s geopolitical atmosphere. The Dassault Rafale was manufactured by Dassault Aviation in France, and has seen 
+            action in Afghanistan, Mali, Libya, Iraq and Syria. Being employed by countries like Egypt, Qatar, and India, these fighters play crucial roles 
+            in the balance of power of various nations in the Middle East and south Asia. 
+          <!-- <br><br>
+          I designed this jet in Solidworks using a variety of features including planes, boundaries, mirrors, extrudes, cuts, fillets, 
+          lofts, sweeps, split lines, revolves, and circular patterns. -->
+          </p>
         </div>
       </div>
+    </div>
 
-      <div class="unique-card-wrapper">
-        <div class="unique-card" data-images="WebImages/Incubator1.jpg, WebImages/IncubatorCircuit.jpg, WebImages/IncubatorDiagram.jpg, WebImages/IncubatorInstructions1.jpg">
-            <button class="unique-arrow unique-left-arrow">&#9664;</button>
-            <div class="unique-image-container">
-                <img class="unique-card-image imgLink" src="WebImages/Incubator1.jpg" alt="Image">
-                <div class="overlay"></div>
-            </div>
-            <button class="unique-arrow unique-right-arrow">&#9654;</button>
-            <div class="unique-text-container">
-                <h2>Incubator - Mealy FSM</h2>
-                <p>This project allowed me to strengthen my skills in design/CAD, 
-                  critical thinking in the context of circuitry, and Arduino software/hardware development.
-                  <br><br>
-                  While the assignment was only for the Mealy FSM portion, I wanted to up it a notch. This "incubator" and its circuitry was 
-                  soldered, assembled, and painted by hand, and provided a nice creative outlet during my term. The Arduino operated on a 227-line program I wrote.
-                </p>
-            </div>
+    <!-- ML PIPELINE -->
+    <div class="unique-card-wrapper">
+      <div class="unique-card" data-images="WebImages/EndodermisPred.jpg, WebImages/SuberinConcentrationPipeline.jpg">
+        <button class="unique-arrow unique-left-arrow">&#9664;</button>
+        <div class="unique-image-container">
+          <img class="unique-card-image imgLink" src="WebImages/EndodermisPred.jpg" alt="Image">
+          <div class="overlay"></div>
+        </div>
+        <button class="unique-arrow unique-right-arrow">&#9654;</button>
+        <div class="unique-text-container">
+          <h2>ML Automated Image Analysis Pipeline</h2>
+          <p>This project allowed me to strengthen my skills in Python, 
+            machine learning model implementation, and bio-marker/microscopy image analysis.
+            <br><br>
+            While working in the Brady Lab at UC Davis, I was tasked with creating this pipeline. The goal of the research is 
+            to determine factors in sorghum roots that prevent Striga hermonithica from forming a xylem bridge post-attachment, 
+            for example, amount of aerenchyma, suberin concentration, and lignin concentration. Gathering this information by hand from root 
+            cross-sections I imaged with a Cytation C10 Confocal Microscope is very time-consuming, which is where the pipeline comes in. 
+            I annotated hundreds of cross-sections to train the Yolov8 model to 
+            to isolate the endodermis, and then I used HSV and grayscale to determine the brightness of fluoral yellow in the endodermis, which 
+            indicates suberin concentration.
+          </p>
         </div>
       </div>
+    </div>
 
-      <div class="unique-card-wrapper">
-        <div class="unique-card" data-images="WebImages/SpaceInvadersPic.png">
-            <button class="unique-arrow unique-left-arrow">&#9664;</button>
-            <div class="unique-image-container">
-                <img class="unique-card-image imgLink" src="WebImages/Incubator1.jpg" alt="Image">
-                <div class="overlay"></div>
-            </div>
-            <button class="unique-arrow unique-right-arrow">&#9654;</button>
-            <div class="unique-text-container">
-                <h2>Space Invaders</h2>
-                <p>This project allowed me to strengthen my skills in game development, 
-                  object-oriented programming (C#), and problem-solving within the Unity environment.
-                  <br><br>
-                  I developed a modern version of the classic Space Invaders game using Unity and C#. This project involved designing 
-                  and implementing gameplay mechanics, including enemy behavior, player controls, collision detection, and scoring systems. 
-                  I wrote all game logic using C# scripts. I also integrated sound effects 
-                  and animations to enhance the user experience.
-                </p>
-            </div>
+    <!-- INCUBATOR -->
+    <div class="unique-card-wrapper">
+      <div class="unique-card" data-images="WebImages/Incubator1.jpg, WebImages/IncubatorCircuit.jpg, WebImages/IncubatorDiagram.jpg, WebImages/IncubatorInstructions1.jpg">
+        <button class="unique-arrow unique-left-arrow">&#9664;</button>
+        <div class="unique-image-container">
+          <img class="unique-card-image imgLink" src="WebImages/Incubator1.jpg" alt="Image">
+          <div class="overlay"></div>
+        </div>
+        <button class="unique-arrow unique-right-arrow">&#9654;</button>
+        <div class="unique-text-container">
+          <h2>Incubator - Mealy FSM</h2>
+          <p>This project allowed me to strengthen my skills in design/CAD, 
+            critical thinking in the context of circuitry, and Arduino software/hardware development.
+            <br><br>
+            While the assignment was only for the Mealy FSM portion, I wanted to up it a notch. This "incubator" and its circuitry was 
+            soldered, assembled, and painted by hand, and provided a nice creative outlet during my term. The Arduino operated on a 227-line program I wrote. 
+            This was my first time using concurrent task management to keep the timing of several lights consistent in the void loop function, and used 
+            real-time programming techniques like hardware interrupts, timer use, and event-driven programming. I heavily used functions to keep the code organized 
+            and simplified, resulting in just 5 lines of code in the void loop function.
+          </p>
         </div>
       </div>
-      
+    </div>
+
+    <!-- GAME DEV -->
+    <div class="unique-card-wrapper">
+      <div class="unique-card" data-images="WebImages/SnowLaughingMatter.png, WebImages/SpaceInvadersPic.png, WebImages/OthelloPic.png">
+        <button class="unique-arrow unique-left-arrow">&#9664;</button>
+        <div class="unique-image-container">
+            <img class="unique-card-image imgLink" src="WebImages/Incubator1.jpg" alt="Image">
+            <div class="overlay"></div>
+        </div>
+        <button class="unique-arrow unique-right-arrow">&#9654;</button>
+        <div class="unique-text-container">
+            <h2 style="font-size: 28px;">Snow Laughing Matter, Space Invaders, Othello</h2>
+            <p>These projects allowed me to strengthen my skills in game development, 
+              object-oriented programming (C#), and problem-solving within the Unity environment/Windows CMD.
+              <br>
+              For the KuriusHacks Christmas Edition Game Jam 2021, I worked with my group to create an original game in Unity with C# scripts that 
+              included a game menu, options page with adjustable volume, player controls and movement, collision detection, character-activated movement, 
+              and sound effects. 
+
+              I also recreated the classic Space Invaders game in Unity with C# scripts. This project involved designing 
+              and implementing gameplay mechanics, including enemy behavior, player controls, collision detection, animations, sound effects, 
+              and scoring systems. 
+
+              Lastly, I programmed the classic game Othello to run on Windows CMD using C# scripts. The game includes custom names, a custom board size, 
+              a scoring system, and the standard game mechanics.
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCOREBOARDS -->
+    <div class="unique-card-wrapper">
+      <div class="unique-card" data-images="WebImages/Scoreboard3.jpg, WebImages/Scoreboard4.jpg, WebImages/Scoreboard5.jpg">
+        <button class="unique-arrow unique-left-arrow">&#9664;</button>
+        <div class="unique-image-container">
+            <img class="unique-card-image imgLink" src="WebImages/Incubator1.jpg" alt="Image">
+            <div class="overlay"></div>
+        </div>
+        <button class="unique-arrow unique-right-arrow">&#9654;</button>
+        <div class="unique-text-container">
+            <h2>Scoreboards</h2>
+            <p>These projects allowed me to strengthen my skills in design/CAD, assemblies, and engineering drawings.
+              <br><br>
+              During my time at OES working as a Mechanical Design Associate, I designed scoreboards for a variety of sports including 
+              football, basketball, and hockey. After creating individual sheet metal components in Inventor, I used them to create cabinets in 
+              assemblies with other parts like wiring, power boxes, digits, fans, plates, and a variety of screws and nuts. I then assembled the 
+              cabinets in a larger assembly with more screws, nuts, and mounting gear. All parts were mated appropriately. Following this, I created 
+              detailed engineering drawings for each individual part for fabrication, and compiled BoMs.
+            </p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- MUSIC -->
+     <div>
+     <!-- FORMER PROJECT LIST: Prosthetic, space invaders, website, othello, arduino door, snow laughing matter, dassault rafale, scoreboards + drawings,
+      computer mouse, orca, birdhouses, helicopter, trombone scaler, screen carts, chess set, tank, mobility assistance device -->
+      <div style="background-color: #fff;" id="work">
+        <div class="title">
+          <h1 class="title">Music/Videos</h1>
+      </div>
+
+      <!-- FIRST ROW -->
+      <div class="row">
+
+        <!-- DISPLAY1 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/XMhsxRgDwI4?si=cWTIWp-dBOkg9M0X" target="_blank"><img class="card-img-top" src="WebImages/TakeFiveThumbnail1.png" alt="Image of prosthetic"></a>
+              <h5 class="card-title">Take Five Jazz Quartet</h5>
+              <p class="card-text">I learned drums for this one! I am happy to say that I really felt this drum rhythm inside my internal clock (after practicing one bar for 
+                30 mins haha)! I struggled quite a bit to harmonize the <u><a href="https://youtu.be/XMhsxRgDwI4?si=Giz5ETB9FETNezC9&t=30" target="_blank">0:30</a></u>, 
+                I wish I was better with theory. I made this one in a few hours one night, and hope to create more jazz ones in the future.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- DISPLAY2 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/PDZFGp4B-9A?si=AfAXxQWcSvgS63E1&t=409" target="_blank"><img class="card-img-top" src="WebImages/AcademicFestivalOvertureThumbnail1.png" alt="Card image cap"></a>
+              <h5 class="card-title">Academic Festival Overture Excerpt</h5>
+              <p class="card-text">I think this clip sums up my strengths and weaknesses very well - I can often hit notes crisply and with good tone, while 
+                maintaining a solid presence in the room. However, my tuning, occasional swelling, and volume awareness during difficult sections certainly need work.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- DISPLAY3 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/dU_p1IoCjlI?si=fmGp0zzK63YzPQWB&t=116" target="_blank"><img class="card-img-top" src="WebImages/TheGaelThumbnail1.png" alt="Image of website"></a>
+              <h5 class="card-title">The Gael</h5>
+              <p class="card-text">This song really puts on display my inadequate playing. I am shockingly out of tune, very out of sync with my gracenotes, 
+                and my technique needs loads of work. But this was such a fun song to play. I will need several years of practice to improve on this instrument, 
+                especially since I don't really have instruction, but I am determined.
+              </p>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <!-- SECOND ROW -->
+      <div class="row">
+
+        <!-- DISPLAY1 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/_8YYTP7kRJI?si=rQe4QfwxQMVFdfAL" target="_blank"><img class="card-img-top" src="WebImages/HighlandCathedralThumbnail1.png" alt="Card image cap"></a>
+              <h5 class="card-title">Highland Cathedral Duet</h5>
+              <p class="card-text">This was my first attempt at recording the real bagpipes, and I had to do it RIGHT after tuning to make it work. My timing 
+                stayed pretty decent, and the gracenotes mostly lined up. Happy with how it turned out! This classic tune is one of my absolute favorites. Not 
+                sure how the video ended up a little out-of-sync with the audio, but we can look past that lol.
+              </p>
+            </div>
+          </div>
+        </div>
         
-        <script src="unique-script.js"></script>
+        <!-- DISPLAY2 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/XsL3kWSZ0Ko?si=IYsmwk0xWO5hc7Tg" target="_blank"><img class="card-img-top" src="WebImages/BabaYetuThumbnail1.png" alt="Card image cap"></a>
+              <h5 class="card-title">Baba Yetu Trombone Ensemble</h5>
+              <p class="card-text">Baba Yetu is one of my favorite songs. I wanted to do a trombone ensemble version of 
+                it, and this was my first draft. Sadly, my computer was damaged and I lost all the original recordings as well as my edited 
+                versions, with only this uploaded video remaning. I think it still holds up well considering I am missing parts and was not done editing, though you 
+                can make out some artifacts in the sound. 
+              </p>
+            </div>
+          </div>
+        </div>
 
-        <div class="row">
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <a href="https://youtube.com/shorts/qJZhUHa7Pu8?feature=share" target="_blank"><img class="card-img-top" src="WebImages/Prosthetic1.jpg" alt="Image of prosthetic"></a>
-                  <h5 class="card-title">Prosthetic Device</h5>
-                  <div class="tags-row">
-                    <div class="tags-item arduino">
-                      <p class="no-bottom">Arduino</p>
-                    </div>
-                    <div class="tags-item school">
-                      <p class="no-bottom">School</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Created prosthetic device that opens doors using EMG signal input, including 
-                    custom circuit, code, 3D-printed model and power.</p>
-                </div>
-              </div>
-            </div> 
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <a href="https://github.com/ldemello5/Goose-Invaders" target="_blank"><img class="card-img-top" src="WebImages/SpaceInvadersPic.png" alt="Card image cap"></a>
-                  <h5 class="card-title">Space Invaders</h5>
-                  <div class="tags-row">
-                    <div class="tags-item unity">
-                      <p class="no-bottom">Unity</p>
-                    </div>
-                    <div class="tags-item oop">
-                      <p class="no-bottom">C#</p>
-                    </div>
-                    <div class="tags-item personal">
-                      <p class="no-bottom">Personal</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Recreated the classic Space Invaders game using Unity and C# scripts, includes gameplay mechanics, 
-                    scoring system, and UI.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <a href="https://github.com/ldemello5/Website" target="_blank"><img class="card-img-top" src="WebImages/WebsitePic2.png" alt="Image of website"></a>
-                  <h5 class="card-title">Personal Website</h5>
-                  <div class="tags-row">
-                    <div class="tags-item webdev">
-                      <p class="no-bottom">HTML</p>
-                    </div>
-                    <div class="tags-item webdev">
-                      <p class="no-bottom">CSS</p>
-                    </div>
-                    <div class="tags-item webdev">
-                      <p class="no-bottom">JavaScript</p>
-                    </div>
-                    <div class="tags-item personal">
-                      <p class="no-bottom">Personal</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Created this website in VS Code using the 
-                    Bootstrap library and version control.</p>
-                </div>
-              </div>
-            </div> 
-          </div>
-          <div class="row">
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <a href="https://github.com/ldemello5/OthelloCMD" target="_blank"><img class="card-img-top" src="WebImages/OthelloPic.png" alt="Card image cap"></a>
-                  <h5 class="card-title">Othello</h5>
-                  <div class="tags-row">
-                    <div class="tags-item oop">
-                      <p class="no-bottom">C#</p>
-                    </div>
-                    <div class="tags-item school">
-                      <p class="no-bottom">School</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Recreated the classic Othello game to run on Powershell/CMD.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <a href="https://youtu.be/3SKpPbajiZQ" target="_blank"><img class="card-img-top" src="WebImages/ArduinoPic.jpg" alt="Card image cap"></a>
-                  <h5 class="card-title">Arduino door</h5>
-                  <div class="tags-row">
-                    <div class="tags-item arduino">
-                      <p class="no-bottom">Arduino</p>
-                    </div>
-                    <div class="tags-item personal">
-                      <p class="no-bottom">Personal</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Created basic security system. Next step: facial recognition. Stay tuned!
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <a href="https://itch.io/jam/kuriushacks-ce/rate/1336211" target="_blank"><img class="card-img-top" src="WebImages/SnowLaughingMatter.png" alt="Card image cap"></a>
-                  <h5 class="card-title">Snow Laughing Matter</h5>
-                  <div class="tags-row">
-                    <div class="tags-item unity">
-                      <p class="no-bottom">Unity</p>
-                    </div>
-                    <div class="tags-item oop">
-                      <p class="no-bottom">C#</p>
-                    </div>
-                    <div class="tags-item group">
-                      <p class="no-bottom">Group</p>
-                    </div>
-                    <div class="tags-item personal">
-                      <p class="no-bottom">Personal</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Created original game with two partners. Completed for KuriusHacks.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <h2 class="job-title" style="text-align: center; margin-bottom: 3%; margin-top: 7%; font-size: 30px; text-decoration: underline;">Design</h2>
-          <div class="row">
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <a href="https://youtu.be/rh-rV7PcDUY" target="_blank"><img class="card-img-top" src="WebImages/FighterJet.png" alt="Card image cap"></a>
-                  <h5 class="card-title">Dassault Rafale</h5>
-                  <div class="tags-row">
-                    <div class="tags-item cad">
-                      <p class="no-bottom">Solidworks</p>
-                    </div>
-                    <div class="tags-item personal">
-                      <p class="no-bottom">Personal</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Modeled the French Dassault Rafale B variant fighter jet exterior, using tools like 
-                    lofts, extrudes, boundary boss, and more.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <img class="card-img-top" src="WebImages/Scoreboard1.png" alt="No image available">
-                  <h5 class="card-title">Scoreboard Drawings & Models</h5>
-                  <div class="tags-row">
-                    <div class="tags-item cad">
-                      <p class="no-bottom">Inventor</p>
-                    </div>
-                    <div class="tags-item work">
-                      <p class="no-bottom">Work</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Modeled several scoreboards with Inventor sheet metal, created engineering drawings 
-                    for production, compiled BoMs of hardware.
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <img class="card-img-top" src="WebImages/Mouse.png" alt="Card image cap">
-                  <h5 class="card-title">Computer Mouse</h5>
-                  <div class="tags-row">
-                    <div class="tags-item cad">
-                      <p class="no-bottom">Solidworks</p>
-                    </div>
-                    <div class="tags-item personal">
-                      <p class="no-bottom">Personal</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Modelled a computer mouse using surface modelling tools including surface extrudes and trims,
-                     boundary surfaces, surface knits and more.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="row">
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <a href="https://cad.onshape.com/documents/bf8f4223590956788c2e25f0/w/777410dd06cac97242405279/e/0105247bdc847c0385863595?renderMode=0&uiState=6458fb4d17c4dd2e91fbf3a8" target="_blank"><img class="card-img-top" src="WebImages/Orca.png" alt="Card image cap"></a>
-                  <h5 class="card-title">Orca</h5>
-                  <div class="tags-row">
-                    <div class="tags-item cad">
-                      <p class="no-bottom">OnShape</p>
-                    </div>
-                    <div class="tags-item group">
-                      <p class="no-bottom">Group</p>
-                    </div>
-                    <div class="tags-item school">
-                      <p class="no-bottom">School</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Designed a 3D orca puzzle with DFA principles and tolerancing 
-                    that was 3D-printed and assembled.</p>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <img class="card-img-top" src="WebImages/Birdhouse.png" alt="Card image cap">
-                  <h5 class="card-title">Birdhouses</h5>
-                  <div class="tags-row">
-                    <div class="tags-item cad">
-                      <p class="no-bottom">Solidworks</p>
-                    </div>
-                    <div class="tags-item personal">
-                      <p class="no-bottom">Personal</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Modeled two birdhouse design concepts.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <a href="https://cad.onshape.com/documents/23e4932536365e2bf2a64128/w/4b454fbb436e9eac30eca3a2/e/c44d8b025a5f75d760000f46?renderMode=0&uiState=6462bb55c103510d66d193f4" target="_blank"><img class="card-img-top" src="WebImages/Helicopter.png" alt="Card image cap"></a>
-                  <h5 class="card-title">Helicopter</h5>
-                  <div class="tags-row">
-                    <div class="tags-item cad">
-                      <p class="no-bottom">OnShape</p>
-                    </div>
-                    <div class="tags-item personal">
-                      <p class="no-bottom">Personal</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Modeled a Chinook CH47 with moving rotors and doors, along with an additional 
-                    .50 cal weapons system.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <a href="https://cad.onshape.com/documents/3dc0ebff8d63df5ae71be456/w/9049d1f8dc6bd891c6de3ec3/e/76a5965b9a4736addd72352d?renderMode=0&uiState=6462bb74c103510d66d19451" target="_blank"><img class="card-img-top" src="WebImages/TromboneDecorationPic.png" alt="Card image cap"></a>
-                  <h5 class="card-title">Trombone Scaler</h5>
-                  <div class="tags-row">
-                    <div class="tags-item cad">
-                      <p class="no-bottom">OnShape</p>
-                    </div>
-                    <div class="tags-item personal">
-                      <p class="no-bottom">Personal</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Designed tool/decoration to depict scales with height relative to partials
-                    on trombone to be 3D-printed.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <img class="card-img-top" src="WebImages/CartsPic1.png" alt="Card image cap">
-                  <h5 class="card-title">Screen Carts</h5>
-                  <div class="tags-row">
-                    <div class="tags-item cad">
-                      <p class="no-bottom">Solidworks</p>
-                    </div>
-                    <div class="tags-item work">
-                      <p class="no-bottom">Work</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Modelled options for a screen cart, designed 
-                    with ease-of-fabrication for millwrights in mind. Created engineering drawings.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <img class="card-img-top" src="WebImages/ChessSetReal.jpg" alt="Card image cap">
-                  <h5 class="card-title">Chess Set</h5>
-                  <div class="tags-row">
-                    <div class="tags-item cad">
-                      <p class="no-bottom">Inventor</p>
-                    </div>
-                    <div class="tags-item personal">
-                      <p class="no-bottom">Personal</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Modeled a scaled chess set from an image, designed to be 3D-printed.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <a href="https://cad.onshape.com/documents/df856a3f273327398be7fb31/w/b8ec89a8568746ef1b18012a/e/2de23bbdf2a7fb5290f13e52?renderMode=0&uiState=6458fa549d9911416307f145" target="_blank"><img class="card-img-top" src="WebImages/TankPic.jpg" alt="Card image cap"></a>
-                  <h5 class="card-title">Tank</h5>
-                  <div class="tags-row">
-                    <div class="tags-item cad">
-                      <p class="no-bottom">OnShape</p>
-                    </div>
-                    <div class="tags-item school">
-                      <p class="no-bottom">School</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Modeled a tank with moving hatch and turret. Update coming soon - working on M1 Abrams!</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <img class="card-img-top" src="WebImages/NoImageAvailable.png" alt="Card image cap">
-                  <h5 class="card-title">Mobility Assistance Device</h5>
-                  <div class="tags-row">
-                    <div class="tags-item design">
-                      <p class="no-bottom">QFD/SWOT</p>
-                    </div>
-                    <div class="tags-item design">
-                      <p class="no-bottom">PDCA</p>
-                    </div>
-                    <div class="tags-item group">
-                      <p class="no-bottom">Group</p>
-                    </div>
-                    <div class="tags-item school">
-                      <p class="no-bottom">School</p>
-                    </div>
-                  </div>
-                  <p class="card-text">Ideated a mobility device for elderly. [TO BE UPDATED]</p>
-                </div>
-              </div>
+        <!-- DISPLAY3 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/0LsMJhv3ETM?si=fXZelQaL6Mg9pw1y" target="_blank"><img class="card-img-top" src="WebImages/ScarboroughFairThumbnail1.png" alt="Card image cap"></a>
+              <h5 class="card-title">Scarborough Fair Trombone Quartet</h5>
+              <p class="card-text">This is my favorite trombone quartet, so I had to try and recreate it. While my tuning (especially high G!) takes me out of it 
+                sometimes, this was my first attempt incorporating bass trombone notes into any kind of video, and it worked out ok. My mic was not good enough to 
+                handle large dynamic changes, so I had to stay consistent, which sucks because the powerful swells in this song usually bring me chills.
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div>
-        <div class="title" id="contact" style="margin-bottom: 2%;">
-          <h1 class="title" style="padding-top: 3%">Contact Me</h1>
-          <h2 class="job-title">I'd love to hear from you!</h2>
+
+      <!-- THIRD ROW -->
+      <div class="row">
+
+        <!-- DISPLAY1 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/uX694SYn-Tk?si=x4ViClUj7ECu3-lV" target="_blank"><img class="card-img-top" src="WebImages/SocialRepCampaignThumbnail1.png" alt="Image of prosthetic"></a>
+              <h5 class="card-title">Social Rep Campaign Video</h5>
+              <p class="card-text">Pretty self-explanatory. While we have never been defeated in a social rep election, Mattie and I wanted to secure our place 
+                in social rep history with the first ever BME26 campaign video. The competition was surely trembling in their boots.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="contact-info">
-          <div class="contact-item">
-            <img src="WebImages/Mail.png" style="max-width: 25px; margin-right: 10px">
-            <p class="contact-item-text">ldemello@uwaterloo.ca</p>
+
+        <!-- DISPLAY2 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/J3U2163kmoE?si=wi2Fel842N66QCjD" target="_blank"><img class="card-img-top" src="WebImages/RockClimbingFallingThumbnail1.png" alt="Card image cap"></a>
+              <h5 class="card-title">Rock Climbing Fails</h5>
+              <p class="card-text">A friend asked for a compilation of some of my fails, so of course I obliged. They're not that exciting, but it is interesting 
+                to see how many times I had to try certain walls to eventually succeed.
+              </p>
+            </div>
           </div>
-          <div class="contact-item">
-            <img src="WebImages/phone.png" style="max-width: 25px; margin-right: 10px">
-            <p class="contact-item-text">(647) 927-5531</p>
+        </div>
+
+        <!-- DISPLAY3 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/RrebUlShAPE?si=O4-Y1VtugZ4o2Dnm" target="_blank"><img class="card-img-top" src="WebImages/GoedickeThumbnail.png" alt="Image of website"></a>
+              <h5 class="card-title">Concert Etude op. 49</h5>
+              <p class="card-text">This song is a trumpet piece, but I had to give it a try. I really struggle with it, but it is simply too much fun to play.
+              </p>
+            </div>
           </div>
-          <div class="contact-item">
-            <img src="WebImages/LinkedIn.jpg" style="max-width: 25px; margin-right: 10px">
-            <p class="contact-item-text"><a href="https://www.linkedin.com/in/lucas-demello5/">Lucas DeMello</a></p>
+        </div> 
+      </div>
+
+      <!-- FOURTH ROW -->
+      <div class="row">
+
+        <!-- DISPLAY1 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/fsJ5lfDNTtM?si=14uFK9gB-nD8svMO" target="_blank"><img class="card-img-top" src="WebImages/SantaBabyThumbnail1.png" alt="Image of prosthetic"></a>
+              <h5 class="card-title">Santa Baby Ebytown Brass</h5>
+              <p class="card-text">I joined this brass band as a bass trombonist, which I had never done before. It was a very educational experience, and my first 
+                time in a real brass band. I had lots of fun! This was near Christmas time, and the flugel player was awesome to hear.
+              </p>
+            </div>
           </div>
-          <div class="contact-item">
-            <img src="WebImages/github.png" style="max-width: 25px; margin-right: 10px">
-            <p class="contact-item-text"><a href="https://github.com/ldemello5">ldemello5</a></p>
+        </div>
+
+        <!-- DISPLAY2 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/s9H3Ib7MY-w?si=SPfsU3rD-0ljfRDh&t=571" target="_blank"><img class="card-img-top" src="WebImages/SymphonicBandThumbnail1.png" alt="Card image cap"></a>
+              <h5 class="card-title">Ex Machina Band Piece</h5>
+              <p class="card-text">Band camp at IMC was one of the best times of my life. In the IMC Symphonic Band, my favorite song was Ex Machina, which 
+                features some insanely cool trombone lines.
+              </p>
+            </div>
           </div>
+        </div>
+
+        <!-- DISPLAY3 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/dYMyadZE4v0?si=wzSIzV2n9JGhTeAC" target="_blank"><img class="card-img-top" src="WebImages/IMCQuartetThumbnail1.png" alt="Image of website"></a>
+              <h5 class="card-title">IMC Trombone Quartet</h5>
+              <p class="card-text">At IMC, in a quartet, I played Now Is The Month Of Maying, as well as Scarborough Fair.
+              </p>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <!-- FIFTH ROW -->
+      <div class="row">
+
+        <!-- DISPLAY1 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/gSrAdHwgaZQ?si=w_ECjSf6Ju2PeBvL" target="_blank"><img class="card-img-top" src="WebImages/RedRockMountainThumbnail1.png" alt="Image of prosthetic"></a>
+              <h5 class="card-title">Red Rock Mountain Trombone Ensemble</h5>
+              <p class="card-text">While playing with the St. Andrew's College Wind Ensemble, my favorite piece was Red Rock Mountain. I tried to learn the trumpet, 
+                sax, euphonium, flute, clarinet and trombone parts to combine into a trombone-only version. I was 17 at the time, and this was by far the most 
+                ambitious music project I had undertaken. Looking back, it could have been worse lol.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- DISPLAY2 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/9G26d8mtif0?si=lsSXh95QmKOCHE6o" target="_blank"><img class="card-img-top" src="WebImages/CovidTestingThumbnail1.png" alt="Card image cap"></a>
+              <h5 class="card-title">COVID19 Testing</h5>
+              <p class="card-text">Grade 12 Biology video project. I had a lot of fun trying to understand how it worked on a molecular level. I always tried to be 
+                creative with my videos, I just wish my green screen was well lit enough to be used!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- DISPLAY3 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/cbyd5ntlWcw?si=da0aa18rLbzTWLwg" target="_blank"><img class="card-img-top" src="WebImages/SACQuartetThumbnail1.png" alt="Image of website"></a>
+              <h5 class="card-title">SAC Brass Quartet</h5>
+              <p class="card-text">At St. Andrew's College, I played I Feel The Winds Of God Today with some of my classmates.
+              </p>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <!-- SIXTH ROW -->
+      <div class="row">
+
+        <!-- DISPLAY1 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/iNML8A4p4vY?si=ZWPGluGHYrEo6mbT" target="_blank"><img class="card-img-top" src="WebImages/BandidosThumbnail1.png" alt="Image of prosthetic"></a>
+              <h5 class="card-title">El Preso</h5>
+              <p class="card-text">While on exchange in the Netherlands, someone saw me walking with my trombone and asked me to join his band! This was our first 
+                rehearsal, and second time ever playing this song. Are there mistakes? Absolutely. Do I think its pretty good for our second time ever during our first 
+                rehearsal? Absolutely.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- DISPLAY2 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/9G26d8mtif0?si=lsSXh95QmKOCHE6o" target="_blank"><img class="card-img-top" src="WebImages/CovidTestingThumbnail1.png" alt="Card image cap"></a>
+              <h5 class="card-title">COVID19 Testing</h5>
+              <p class="card-text">Grade 12 Biology video project. I had a lot of fun trying to understand how it worked on a molecular level. I always tried to be 
+                creative with my videos, I just wish my green screen was well lit enough to be used!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- DISPLAY3 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://youtu.be/cbyd5ntlWcw?si=da0aa18rLbzTWLwg" target="_blank"><img class="card-img-top" src="WebImages/SACQuartetThumbnail1.png" alt="Image of website"></a>
+              <h5 class="card-title">SAC Brass Quartet</h5>
+              <p class="card-text">At St. Andrew's College, I played I Feel The Winds Of God Today with some of my classmates.
+              </p>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div>
+      <div class="title" id="contact" style="margin-bottom: 2%;">
+        <h1 class="title" style="padding-top: 3%">Contact Me</h1>
+        <h2 class="job-title">I'd love to hear from you!</h2>
+      </div>
+      <div class="contact-info">
+        <div class="contact-item">
+          <img src="WebImages/Mail.png" style="max-width: 25px; margin-right: 10px">
+          <p class="contact-item-text">ldemello@uwaterloo.ca</p>
+        </div>
+        <div class="contact-item">
+          <img src="WebImages/phone.png" style="max-width: 25px; margin-right: 10px">
+          <p class="contact-item-text">(647) 927-5531</p>
+        </div>
+        <div class="contact-item">
+          <img src="WebImages/LinkedIn.jpg" style="max-width: 25px; margin-right: 10px">
+          <p class="contact-item-text"><a href="https://www.linkedin.com/in/lucas-demello5/">Lucas DeMello</a></p>
+        </div>
+        <div class="contact-item">
+          <img src="WebImages/github.png" style="max-width: 25px; margin-right: 10px">
+          <p class="contact-item-text"><a href="https://github.com/ldemello5">ldemello5</a></p>
         </div>
       </div>
-      <!-- SWIPER JS -->
-      <script src="swiper-bundle.min.js"></script>
-      <script src="script.js"></script>
-    </body>
+    </div>
+
+    <!-- JS -->
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="unique-script.js"></script>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function(){
+          var header = document.querySelector("header");
+          header.classlist.toggle("sticky", window.scrollY > 0);
+      })
+    </script>
+    <script src="app.js"></script>
+
+  </body>
 </html>
