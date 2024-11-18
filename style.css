@@ -305,7 +305,7 @@ header ul li a{
     width: 2px;
     background-color: gray;
     top: 230px;
-    bottom: 170px;
+    bottom: 450px;
     left: 40%;
     margin-left: -4px;
   }
@@ -436,6 +436,19 @@ header ul li a{
 
   }
 
+/*Courses*/
+
+.courses {
+    width: 88%;
+    padding-left: 22.5%;
+    position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #05445E;
+    font-size: 15px;
+    text-align:justify;  
+    text-justify:inter-word;
+    padding-bottom: 3%;
+}
   
 
 /*Skills*/
