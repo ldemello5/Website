@@ -449,7 +449,19 @@ header ul li a{
     text-justify:inter-word;
     padding-bottom: 3%;
 }
-  
+
+/*Bands*/
+.bands {
+    width: 80%;
+    padding-left: 22.5%;
+    position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #05445E;
+    font-size: 15px;
+    text-align:justify;  
+    text-justify:inter-word;
+    padding-bottom: 3%;
+}
 
 /*Skills*/
 
